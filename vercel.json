@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/hotels",
+        "dest": "/index.js"
+      }
+    ],
+    "env": {
+      "GEO_DB_API_KEY": "19f6d070d4msh76af06e0a034039p16393ajsn6740f60e85e9",
+      "TRIP_ADVISOR_API_KEY": "19f6d070d4msh76af06e0a034039p16393ajsn6740f60e85e9",
+      "x-rapidapi-key": "19f6d070d4msh76af06e0a034039p16393ajsn6740f60e85e9"
+    }
+  }
+  
